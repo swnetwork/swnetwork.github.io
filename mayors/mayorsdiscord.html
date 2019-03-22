@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Mayors</title>
+	<link rel="icon" type="image/png" href="https://cdn.discordapp.com/icons/552401217427341322/48e1f59fd58d64262dd11c0f7d8f31db.webp">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>	body, html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+body {
+	background: #2C2F33;
+	color: rgb(255, 255, 255);
+	font-family: sans-serif;
+}
+.center {
+	text-align: center;
+}
+.full {
+	width: 100%;
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.half {
+	width: 50%;
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+}
+@media (max-width: 1000px) {
+	.half {
+		width: 100%;
+	}
+}
+.button {
+	display: inline-block;
+	padding: 10px 20px;
+	background: rgb(112, 48, 112);
+	border-radius: 5px;
+	color: white;
+	text-decoration: none;
+	margin: 10px;
+}
+.link {
+   color: #23a7ff
+}
+.link:hover {
+    color:#1877b6
+}
+.twitch {
+	background: #6441a4;
+}
+.twitch:hover {
+	background: #571ac9;
+}
+.twitter {
+	background: #23a7ff;
+}
+.twitter:hover {
+	background: #1d78ee;
+}
+iframe {
+	width: 100%;
+}
+.logo {
+	width: 128px;
+	height: 128px;
+	margin: auto;
+}
+.logo-section {
+	padding: 5vmin;
+}</style>
+
+<body class="center">
+	<div class="full center logo-section">
+        <a href="https://network.sladewatkins.ml/mayors/"><img class="logo" src="https://cdn.discordapp.com/icons/552401217427341322/48e1f59fd58d64262dd11c0f7d8f31db.webp"></a>
+	</div>
+	<div class="half"><br>
+        <p>Join us on Discord!</p><br>
+        <p>To join our Discord server, click "connect" on the widget.</p>
+        <p>For inquiries, please email <a class="link" href="mailto:mayors@saturnmediagroup.ga">mayors@saturnmediagroup.ga</a> or DM an admin.</p>
+    </div>
+<div class="half">
+    <iframe src="https://discordapp.com/widget?id=552401217427341322&theme=dark" width="250" height="500" allowtransparency="true" frameborder="0"></iframe><br />
+
+<script>
+		const iframes = document.getElementsByTagName('iframe');
+		const resize = () => {
+			for (let index = 0; index < iframes.length; index++) {
+				const element = iframes[index];
+				element.style.height = element.offsetWidth/1.77777777778+"px";
+			}
+		}
+		window.addEventListener('resize', resize);
+		resize();
+	</script>
+</body>
+</html>
