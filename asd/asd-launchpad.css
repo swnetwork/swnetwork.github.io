@@ -1,0 +1,62 @@
+	body, html {
+			width: 100%;
+			height: 100%;
+			margin: 0;
+		}
+		body {
+			background: #2C2F33;
+			color: rgb(255, 255, 255);
+			font-family: sans-serif;
+		}
+		.center {
+			text-align: center;
+		}
+		.full {
+			width: 100%;
+			float: left;
+			padding: 10px;
+			box-sizing: border-box;
+		}
+		.half {
+			width: 50%;
+			float: left;
+			padding: 10px;
+			box-sizing: border-box;
+		}
+		@media (max-width: 1000px) {
+			.half {
+				width: 100%;
+			}
+		}
+		.button {
+			display: inline-block;
+			padding: 10px 20px;
+			background: rgb(112, 48, 112);
+			border-radius: 5px;
+			color: white;
+			text-decoration: none;
+			margin: 10px;
+        }
+		.twitch {
+			background: #6441a4;
+		}
+		.twitch:hover {
+			background: #571ac9;
+		}
+		.twitter {
+			background: #23a7ff;
+        }
+		.twitter:hover {
+			background: #1d78ee;
+		}
+		iframe {
+			width: 100%;
+		}
+		.logo {
+			width: 128px;
+			height: 128px;
+			margin: auto;
+		}
+		.logo-section {
+			padding: 5vmin;
+		}
