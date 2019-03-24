@@ -1,26 +1,142 @@
 
+
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8" />
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>A+Start Discord</title>
 	<link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/313404065906425857/556634735040790548/unknown.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel='stylesheet' href='/asd/asd-launchpad.css' type='text/css'/>
 </head>
+
+<style>
+	body, html {
+			width: 100%;
+			height: 100%;
+			margin: 0;
+		}
+		body {
+			background: #2C2F33;
+			color:  rgb(255, 255, 255);
+			font-family: sans-serif;
+		}
+		.center {
+			text-align: center;
+		}
+		.full {
+			width: 100%;
+			float: left;
+			padding: 10px;
+			box-sizing: border-box;
+		}
+		.half {
+			height: auto;
+			width: 50%;
+			float: left;
+			padding: 10px;
+			box-sizing: border-box;
+		}
+		@media (max-width: 1000px) {
+			.half {
+				width: 100%;
+			}
+		}
+		.button {
+			display: inline-block;
+			padding: 10px 20px;
+			background: rgb(112, 48, 112);
+			border-radius: 5px;
+			color: white;
+			text-decoration: none;
+			margin: 10px;
+        }
+		.twitch {
+			background: #6441a4;
+		}
+		.twitch:hover {
+			background: #4d3280;
+		}
+		.youtube {
+			background: #d60707;
+		}
+		.youtube:hover {
+			background: #a50505;
+		}
+		.instagram {
+			background: #b20cdb;
+		}
+		.instagram:hover {
+			background: #8d0aad;
+		}
+		.twitter {
+			background: #23a7ff;
+        }
+		.twitter:hover {
+			background: #1d78ee;
+		}
+		.discord {
+			background: #7289DA;
+		}
+		.discord:hover {
+			background: rgb(82, 98, 156);
+		}
+		.discordlink {
+			color: #7289DA;
+		}
+		.discordlink:hover {
+			color: rgb(82, 98, 156);
+		}
+		iframe {
+			width: 100%;
+		}
+		.logo {
+			width: 128px;
+			height: 128px;
+			margin: auto;
+		}
+		.logo-section {
+			padding: 5vmin;
+		}
+</style>
+
 <body class="center">
 	<div class="full center logo-section">
         <a href="https://network.sladewatkins.ml/asd/"><img class="logo" src="https://cdn.discordapp.com/attachments/313404065906425857/556634735040790548/unknown.png"></a>
+		<h2>A+Start</h2>
 	</div>
-	<div class="half"><br>
-        <p>Join us on Discord or Twitter.</p><br>
-        <p>To join our Discord server, click "connect" on the widget.</p>
-        <a class="button twitter" href="https://twitter.com/astartdiscord">Twitter</a>
-    </div>
+
+	<div class="half">
+        <p>Follow @astartdiscord on Twitter!</p>
+		<p><a class="twitter-timeline" data-width="100%" data-height="500" href="https://twitter.com/astartdiscord?ref_src=twsrc%5Etfw">Visit us on Twitter astartdiscord</a>
+		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+	</div>
+	
 <div class="half">
-            <iframe src="https://discordapp.com/widget?id=313403640151015427&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>    </div>
-<br />
+	<p>Click "connect" on the widget to join our Discord server!</p>
+     <iframe src="https://discordapp.com/widget?id=313403640151015427&theme=light" width="350" height="528" allowtransparency="true" frameborder="0"></iframe>    </div>
+</div>
+
+<div class="full center">
+	<p><a class="button twitter" href="https://twitter.com/AStartShow">Follow A+Start on Twitter</a><a class="button instagram" href="https://instagram.com/astartshow">Follow A+Start on Instagram</a></p>
+</div>
+
+<div class="half">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLDBXdd2IJRvW-gaqcF2Kx0zOUkFZVdML2" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	<a class="button youtube" href="https://www.youtube.com/user/AandStart">Watch A+Start on YouTube</a>
+</div>
+
+<div class="half">
+    <iframe src="https://player.twitch.tv/?channel=astartshow&autoplay=false" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+	<a class="button twitch" href="https://twitch.tv/astartshow">Watch A+Start on Twitch</a>
+</div>
+
+<div class="full center">
+	<p>If you have any inquiries regarding this site or our Discord server, please email <a class="discordlink" href="mailto:info@asdiscord.ml">info@asdiscord.ml</a> or DM an Admin.</p>
+	<p>A+Start Discord is a fan-run community Discord server.</p>
+</div>
+
+
 
 <script>
 		const iframes = document.getElementsByTagName('iframe');
@@ -33,5 +149,4 @@
 		window.addEventListener('resize', resize);
 		resize();
 	</script>
-</body>
-</html>
+</body></html>
